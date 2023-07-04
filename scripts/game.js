@@ -14,7 +14,7 @@ const cores = [
 // Palavras que serão exibidas aleatoriamente
 const palavras = ["Rosa", "Cinza", "Azul", "Roxo", "Amarelo", "Marrom", "Laranja", "Verde", "Vermelho"];
 
-const caminhoImagem = "../assets/grid-item-";
+const caminhoImagem = "./assets/grid-item-";
 
 // Cor alvo do botão
 let alvo;
