@@ -1,0 +1,42 @@
+.intro {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: end;
+    width: 100vw;
+    height: auto;
+    margin-top: 30px;
+    align-items: center;
+
+}
+
+.text-container {
+    padding: 30px;
+    max-width: 50vw;
+    height: 50vh;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    outline: 3px #60330a dashed;
+    outline-offset: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.img-container {
+    max-width: 40vw;
+    height: auto;
+    text-align: right;
+
+}
+
+.ilustracao {
+    max-width: 80%;
+
+}
+
+mark{
+    background-color:#f4b3d3;
+    padding: 1px;
+    border-radius: 5px;
+}
