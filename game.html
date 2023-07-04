@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/game.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>Cat Colors</title>
+</head>
+
+<body>
+    <header>
+        <div class="branding">
+            <img class="logo" src="./assets/logo.svg" alt="logotipo, patinha de gato icon flat">
+            <h2>Cat Colors</h2>
+        </div>
+
+        <div class="acompanhamento">
+            <h2 id="level">Nível: 1</h2>
+            <h2 id="score">Pontuação: 0</h2>
+            <h2 id="timer">Tempo: 3.0</h2>
+        </div>
+    </header>
+    <main>
+        <div class="palavraSorteada">
+            <h1>A cor do gato é</h1>
+            <p id="nameColor">???</p>
+            <a href="./index.html"><button id="backButton">Voltar</button></a>
+            <button id="playButton">Play</button>
+
+        </div>
+        <div class="grid-container">
+            <div class="grid-item position-1"></div>
+            <div class="grid-item position-2"></div>
+            <div class="grid-item position-3"></div>
+            <div class="grid-item position-4"></div>
+            <div class="grid-item position-5"></div>
+            <div class="grid-item position-6"></div>
+            <div class="grid-item position-7"></div>
+            <div class="grid-item position-8"></div>
+            <div class="grid-item position-9"></div>
+        </div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modal-title"></h2>
+                <br>
+                <p id="modal-message"></p>
+                <p id="modal-score"></p>
+                <p id="modal-level"></p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p>Desenvolvido com <span class="heart">&#128156;</span> By Denise Costa</p>
+    </footer>
+
+    <script src="./scripts/game.js"></script>
+</body>
+
+</html>
