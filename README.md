@@ -1,8 +1,8 @@
 # Cat Colors Game
-
-
 Cat Colors é um jogo em JavaScript que apresenta nove botões com imagens representando diferentes cores. Além disso, uma palavra é exibida em uma cor correspondente a um desses botões. O objetivo do jogador é clicar no botão que representa a cor correta antes que o tempo acabe. É um jogo divertido e envolvente que testa suas habilidades de reconhecimento de cores e tempo de reação.
 ![Preview Cat Color Game](assets/preview.png)
+Durante o desenvolvimento do projeto, foram aplicados conceitos de HTML para estruturar a página do jogo, CSS para estilização e aparência visual, e JavaScript para a lógica do jogo e interação com o usuário.
+
 
 ## Recursos
 
